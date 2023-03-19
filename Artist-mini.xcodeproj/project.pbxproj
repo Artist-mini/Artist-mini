@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		060CB1F429C75375001A6608 /* TextSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060CB1F329C75375001A6608 /* TextSearchView.swift */; };
 		79FE245329C5DA7200B34B9A /* Artist_miniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FE245229C5DA7200B34B9A /* Artist_miniApp.swift */; };
 		79FE245529C5DA7200B34B9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FE245429C5DA7200B34B9A /* ContentView.swift */; };
 		79FE245729C5DA7200B34B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79FE245629C5DA7200B34B9A /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		060CB1F329C75375001A6608 /* TextSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextSearchView.swift; path = "../../../../../../.Trash/Artist-mini 오후 11.23.56/Artist-mini/View/TextSearchView/TextSearchView.swift"; sourceTree = "<group>"; };
 		79FE244F29C5DA7200B34B9A /* Artist-mini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Artist-mini.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FE245229C5DA7200B34B9A /* Artist_miniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist_miniApp.swift; sourceTree = "<group>"; };
 		79FE245429C5DA7200B34B9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		060CB1F229C75363001A6608 /* TextSearchView */ = {
+			isa = PBXGroup;
+			children = (
+				060CB1F329C75375001A6608 /* TextSearchView.swift */,
+			);
+			path = TextSearchView;
+			sourceTree = "<group>";
+		};
 		79FE244629C5DA7200B34B9A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +93,7 @@
 		79FE246129C5DB4800B34B9A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				060CB1F229C75363001A6608 /* TextSearchView */,
 				79FE246429C5DB5D00B34B9A /* ContentView */,
 			);
 			path = View;
@@ -181,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79FE246729C5DB8500B34B9A /* HomeView.swift in Sources */,
+				060CB1F429C75375001A6608 /* TextSearchView.swift in Sources */,
 				79FE245529C5DA7200B34B9A /* ContentView.swift in Sources */,
 				79FE245329C5DA7200B34B9A /* Artist_miniApp.swift in Sources */,
 			);
