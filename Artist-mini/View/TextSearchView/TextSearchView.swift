@@ -17,7 +17,7 @@ struct TextSearchView: View {
                 .padding()
                 
                 // 입력할 텍스트 창
-                TextField("검색하고 싶은거", text: $searchText)
+                TextField("검색하고 싶은거?", text: $searchText)
                     .padding()
                 
                 //확인버튼
